@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="primary500" type="color">#FFCC1B1B</item>
+    <item name="primary100" type="color">#FFFCE4E4</item>
+    <item name="primary300" type="color">#FFF06262</item>
+    <item name="primary400" type="color">#FFE62E2E</item>
+    <item name="primary700" type="color">#FFA61515</item>
+
+    <item name="accent100" type="color">#FF999999</item>
+    <item name="accent200" type="color">#FF666666</item>
+    <item name="accent400" type="color">#FF282828</item>
+    <item name="accent700" type="color">#FF0C0C0C</item>
+
+    <item name="dividerColor" type="color">#2FFFFFFF</item>
+
+    <item name="menu_subhead" type="color">@color/primary300</item>
+
+    <item name="drawerIconColor" type="color">#FFFFFFFF</item>
+</resources>

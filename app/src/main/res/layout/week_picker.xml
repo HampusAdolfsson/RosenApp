@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="56dp">
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/btnPrevWeek"
+        android:src="@drawable/ic_chevron_left_black_24dp"
+        android:background="@drawable/ripple"/>
+    <TextView
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tvWeek"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:clickable="true"
+        android:background="@drawable/ripple"/>
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/btnNextWeek"
+        android:src="@drawable/ic_chevron_right_black_24dp"
+        android:background="@drawable/ripple"/>
+
+</LinearLayout>

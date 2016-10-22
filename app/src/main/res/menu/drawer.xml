@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/dm_schedule"
+            android:checked="false"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Schema"/>
+        <item android:id="@+id/dm_menu"
+            android:checked="false"
+            android:icon="@drawable/ic_local_restaurant_black_24dp"
+            android:title="Meny"/>
+        <item android:id="@+id/dm_events"
+            android:checked="false"
+            android:icon="@drawable/ic_whatshot_black_24dp"
+            android:title="Händelser"/>
+        <item android:id="@+id/dm_contact"
+            android:checked="false"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Länkar"/>
+        <item android:id="@+id/dm_settings"
+            android:checked="false"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Inställningar"/>
+    </group>
+</menu>

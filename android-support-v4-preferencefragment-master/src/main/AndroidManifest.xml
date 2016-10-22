@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.support.v4.preference">
+
+    <application android:allowBackup="true">
+
+    </application>
+
+</manifest>

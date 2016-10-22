@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_select_week"
+        android:title="@string/action_select_week"
+        app:showAsAction="ifRoom"
+        app:actionLayout="@layout/week_picker"/>
+
+    <item android:id="@+id/action_update"
+        android:icon="@drawable/ic_cached_black_24dp"
+        android:title="@string/action_update"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_change_id"
+        android:title="@string/action_change_id"
+        app:showAsAction="never"/>
+</menu>

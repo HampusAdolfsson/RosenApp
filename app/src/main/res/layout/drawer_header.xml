@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rosendal.elevkarrosendal.elements.FixedAspectRatioFrameLayout android:layout_width="match_parent"
+    android:layout_height="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:aspectRatioHeight="9"
+    app:aspectRatioWidth="16"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:gravity="start"
+        android:src="@drawable/drawer_img"/>
+
+</com.rosendal.elevkarrosendal.elements.FixedAspectRatioFrameLayout>

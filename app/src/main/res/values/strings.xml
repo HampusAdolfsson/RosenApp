@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">RosenApp</string>
+
+    <string name="menu_loading_msg">Laddar menyn…</string>
+    <string name="schedule_loading_msg">Laddar schema…</string>
+    <string name="feed_loading_msg">Laddar feed…</string>
+    <string name="authenticate_loading_msg">Verifierar medlemskap…</string>
+    <string name="unknown_error_msg">Ett okänt fel uppstod</string>
+
+    <string name="id_dialog_msg">Personnummer (ÅÅMMDD-XXXX) eller (halv)klass</string>
+    <string name="id_dialog_title">Schema-id</string>
+    <string name="signout_dialog_msg">Vill du logga ut från appen?</string>
+    <string name="signout_dialog_title">Logga ut</string>
+    <string name="network_dialog_msg">Ingen internetanslutning hittades</string>
+    <string name="network_dialog_title">Uppkoppling misslyckades</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Avbryt</string>
+
+    <string name="action_update">Uppdatera</string>
+    <string name="action_change_id">Ändra id</string>
+    <string name="action_select_week">Välj vecka</string>
+
+    <string name="error_title">Oops…</string>
+    <string name="error_msg">Ett fel uppstod, vänligen försök igen</string>
+
+    <string name="facebook">ER - Facebook</string>
+    <string name="facebook_sub">/ElevkarenRosendal</string>
+    <string name="twitter">ER - Twitter</string>
+    <string name="twitter_sub">\@ElevkarRosendal</string>
+    <string name="instagram">ER - Instagram</string>
+    <string name="instagram_sub">\@ElevkarenRosendal</string>
+    <string name="webpage">Rosnet</string>
+    <string name="webpage_sub">sites.google.com/a/rosendalsgymnasiet.se/rosnet</string>
+    <string name="feedback">Feedback på appen</string>
+    <string name="feedback_sub">hampus.adolfsson@glocalnet.net</string>
+
+    <string-array name="res_entries">
+        <item>Hög</item>
+        <item>Medel</item>
+        <item>Låg</item>
+    </string-array>
+    <string-array name="res_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="empty_string"></string>
+
+    <string name="title_activity_setup">SetupActivity</string>
+    <string name="id_msg">Ange ett schema-id nedan för att visa ditt schema i appen. Du kan ange personnummer (ååmmdd-xxxx) eller (halv)klass. Detta kan ändras senare.</string>
+    <string name="btn_continue">Fortsätt</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:key="schedule_resolution"
+        android:title="Upplösning Schema"
+        android:defaultValue="0"
+        android:entries="@array/res_entries"
+        android:entryValues="@array/res_entry_values"/>
+    <CheckBoxPreference android:key="show_time_hint"
+        android:title="Tidsindikator"
+        android:summary="Visa en tidsindikator på schemat"
+        android:defaultValue="true"
+        android:singleLine="true"
+        android:ellipsize="end" />
+    <Preference
+        android:key="schedule_id"
+        android:title="@string/id_dialog_title"/>
+</PreferenceScreen>
