@@ -34,7 +34,7 @@ class RefreshInstaFeedTask extends RefreshTask<ArrayList<InstaPost>> {
         try {
             Random random = new Random();
             for (int n = 0; n < 5; n++) {
-                String url = "https://api.instagram.com/v1/users/239997540/media/recent?client_id=3bd274e78c5e4675bdfdd18a91ac8126&count=15";
+                String url = "https://www.instagram.com/elevkarenrosendal/media?count=15";
                 HttpURLConnection con = (HttpURLConnection) new URL(url).openConnection();
                 con.setRequestMethod("GET");
                 if (con.getResponseCode() == 403 || con.getResponseCode() >= 500) {
@@ -60,7 +60,7 @@ class RefreshInstaFeedTask extends RefreshTask<ArrayList<InstaPost>> {
                         posts = new ArrayList<>();
 
                         JSONObject json = new JSONObject(response.toString());
-                        JSONArray data = json.getJSONArray("data");
+                        JSONArray data = json.getJSONArray("items");
                         for (int i = 0; i < data.length(); i++) {
                             InstaPost post = InstaPost.createFromJson(data.getJSONObject(i));
                             if (post != null) posts.add(post);
